@@ -72,3 +72,20 @@ section {
   border-radius: 4px;
   background-clip: padding-box;
 }
+
+.article:nth-child(1) {
+  background-color: #000;
+}
+.by {
+  font-size: smaller;
+}
+
+.post-imgs {
+  width: 100%;
+}
+
+.post-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
