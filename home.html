@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Sam Social Media Wall</title>
+    <link rel="stylesheet" href='./home.css' />
   </head>
   <body>
     <header>
@@ -12,35 +13,44 @@
 
     </header>
     <main>
-      <form>
-        <input type="text" placeholder="Post title" />
-        <textarea placeholder="Post content"></textarea>
-        <label for="file_upload">Add media (images or videos) </label><input type="file" />
-        <input type="text" placeholder="post timestamp" />
-        <button type="submit">Add new post</button>
-      </form>
-      <article>
-        <h3>This is my first post</h3>
-        <p>By Sam</p>
-        <p>Hello World! This is the POST</p>
-        <img src="Andela_Kigali-55.jpg" height="300" alt="Andela Kigal" />
-        <date>Posted on: <time>10/12/2021</time></date>
-        <aside>
-          <button> Edit</button>
-          <button> Delete</button>
-        </aside>
-      </article>
-      <article>
-        <h3>This is my second post</h3>
-        <p>By Sam</p>
-        <p>Hello World! This is the other POST</p>
-        <img src="feeling gud.jpg" height="300" alt="Andela Kigal" />
-        <date>Posted on: <time>10/14/2021</time></date>
-        <aside>
-          <button> Edit</button>
-          <button> Delete</button>
-        </aside>
-      </article>
+      <section class='col'>
+        <p>Search for hashtags</p>
+      </section>
+      <section class="col">
+
+        <form>
+          <input type="text" placeholder="Post title" />
+          <textarea placeholder="Post content"></textarea>
+          <label for="file_upload">Add media (images or videos) </label><input type="file" />
+          <input type="text" placeholder="post timestamp" />
+          <button type="submit">Add new post</button>
+        </form>
+        <article>
+          <h3>This is my first post</h3>
+          <p>By Sam</p>
+          <p>Hello World! This is the POST</p>
+          <img src="Andela_Kigali-55.jpg" height="300" alt="Andela Kigal" />
+          <date>Posted on: <time>10/12/2021</time></date>
+          <aside>
+            <button> Edit</button>
+            <button> Delete</button>
+          </aside>
+        </article>
+        <article>
+          <h3>This is my second post</h3>
+          <p>By Sam</p>
+          <p>Hello World! This is the other POST</p>
+          <img src="feeling gud.jpg" height="300" alt="Andela Kigal" />
+          <date>Posted on: <time>10/14/2021</time></date>
+          <aside>
+            <button> Edit</button>
+            <button> Delete</button>
+          </aside>
+        </article>
+      </section>
+      <section class="col">
+        &copy; SM
+      </section>
     </main>
     <footer>
       <p>
